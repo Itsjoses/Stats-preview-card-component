@@ -5,3 +5,4 @@ GitHub : https://github.com/Itsjoses/Stats-preview-card-component
 live pages : https://itsjoses.github.io/Stats-preview-card-component/
 
 
+Challenge from frontendmentor.io
