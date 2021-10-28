@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.background{
+    min-height: 100vh;
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    color: white;
+}
+
+.card{
+    width: 85%;
+    height: 500px;
+    /* max-height: 70%; */
+    background: hsl(244, 38%, 16%);
+    display: flex;
+    border-radius: 30px;
+}
+
+.font{
+    flex-basis: 50%;
+    /* width: 60%; */
+    display: flex;
+}
+
+.font-row{
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.font-row h1{
+    font-size: 50px;
+    text-align: left;
+    color: white;
+}
+
+.font-row > p{
+    margin-top: 30px;
+    font-size: 18px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.color{
+    color: hsl(277, 64%, 61%);
+}
+
+.number{
+    display: flex;
+    flex-basis: 34%;
+}
+
+.number-col{
+    margin-top: 80px;
+    margin-right: 70px;
+}
+
+.number-col p{
+    margin-top: 10px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.number-col h2{
+    color: white;
+}
+
+.pic-card{
+    position: relative;
+    background: url(Prototype/stats-preview-card-component-main/images/image-header-desktop.jpg) no-repeat;
+    background-size: 100%;
+    flex-basis: 50%;
+    filter: opacity(.6) drop-shadow(0px 0px 1px hsl(277, 64%, 61%));
+    border-radius: 0 30px 30px 0;
+}
+
+
+.pic-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.attribution{
+    position: absolute;
+    margin-top: -50px;
+    /* margin-left: 100px; */
+    color: white;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+
